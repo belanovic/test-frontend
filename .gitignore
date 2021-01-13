@@ -4,6 +4,7 @@
 /node_modules
 /public/images
 /src/carousel/images
+/build/images
 /.pnp
 .pnp.js
 
