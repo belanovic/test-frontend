@@ -21,11 +21,11 @@ export default function BootstrapCarousel() {
             wrapperTag = 'ul' 
             navigation
             thumbs = {{swiper: thumbsSwiper}}>
-              <SwiperSlide tag = 'li'><img src = '/images/img0.jpg' className = "imgSlide"></img></SwiperSlide>
-              <SwiperSlide tag = 'li'><img src = '/images/img1.jpg' className = "imgSlide"></img></SwiperSlide>
-              <SwiperSlide tag = 'li'><img src = '/images/img2.jpg' className = "imgSlide"></img></SwiperSlide>
-              <SwiperSlide tag = 'li'><img src = '/images/img3.jpg' className = "imgSlide"></img></SwiperSlide>
-              <SwiperSlide tag = 'li'><img src = '/images/img5.jpg' className = "imgSlide"></img></SwiperSlide>
+              <SwiperSlide tag = 'li'><img src = 'https://bit.ly/3oAxqW2' className = "imgSlide"></img></SwiperSlide>
+              <SwiperSlide tag = 'li'><img src = 'https://bit.ly/3sh2v3k' className = "imgSlide"></img></SwiperSlide>
+              <SwiperSlide tag = 'li'><img src = 'https://bit.ly/3oDK6vu' className = "imgSlide"></img></SwiperSlide>
+              <SwiperSlide tag = 'li'><img src = 'https://bit.ly/39pVLHU' className = "imgSlide"></img></SwiperSlide>
+              <SwiperSlide tag = 'li'><img src = 'https://bit.ly/2LLLUnk' className = "imgSlide"></img></SwiperSlide>
           </Swiper>
           
           <Swiper 
@@ -33,11 +33,11 @@ export default function BootstrapCarousel() {
             onSwiper = {setThumbsSwiper}
             slidesPerView = {5} 
             spaceBetween = {1}>
-              <SwiperSlide tag = 'li'><img src = '/images/img0.jpg' className = "imgThumb"></img></SwiperSlide>
-              <SwiperSlide tag = 'li'><img src = '/images/img1.jpg' className = "imgThumb"></img></SwiperSlide>
-              <SwiperSlide tag = 'li'><img src = '/images/img2.jpg' className = "imgThumb"></img></SwiperSlide>
-              <SwiperSlide tag = 'li'><img src = '/images/img3.jpg' className = "imgThumb"></img></SwiperSlide>
-              <SwiperSlide tag = 'li'><img src = '/images/img5.jpg' className = "imgThumb"></img></SwiperSlide>
+              <SwiperSlide tag = 'li'><img src = 'https://bit.ly/3oAxqW2' className = "imgThumb"></img></SwiperSlide>
+              <SwiperSlide tag = 'li'><img src = 'https://bit.ly/3sh2v3k' className = "imgThumb"></img></SwiperSlide>
+              <SwiperSlide tag = 'li'><img src = 'https://bit.ly/3oDK6vu' className = "imgThumb"></img></SwiperSlide>
+              <SwiperSlide tag = 'li'><img src = 'https://bit.ly/39pVLHU' className = "imgThumb"></img></SwiperSlide>
+              <SwiperSlide tag = 'li'><img src = 'https://bit.ly/2LLLUnk' className = "imgThumb"></img></SwiperSlide>
           </Swiper>
           </>
         )
