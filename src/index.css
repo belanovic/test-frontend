@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    border: 3px solid red;
+    width: 100%;
+    margin: auto;
+}
+.header {
+    background: black;
+}
+.main {
+    background: yellow;
+}
+.footer {
+    background: black;
+}
+
+.swiper-container {
+    width: 100%;
+}
+#main.swiper-container {
+    margin-bottom: 1em;
+}
+
+.swiper-wrapper {
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+.swiper-slide {
+    padding: 0px;
+    margin: 0;
+}
+.imgSlide {
+    width: 100%;
+    height: 500px;
+}
+.imgThumb {
+    width: 100%;
+}
+.imgThumb:hover {
+    cursor: pointer;
+}
+
+#thumbs .swiper-slide {
+    transition: all 0.5s;
+    transform: scale(0.7, 0.7);
+}
+#thumbs .swiper-slide-thumb-active {
+    transform: scale(1, 1);
+}
